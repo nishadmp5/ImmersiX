@@ -1,61 +1,51 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./Immersix-logo.png";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
+import brainwaveSymbol from "./Immersix-logo.png";
 import play from "./play.svg";
 import gradient from "./gradient.png";
-import smallSphere from "./4-small.png";
-import grid from "./grid.png";
+import smallSphere from "./vrheadset.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
 import yourlogo from "./yourlogo.svg";
-import homeSmile from "./home-smile.svg";
-import file02 from "./file-02.svg";
+import homeSmile from "./battery.png";
+import file02 from "./wifi.png";
 import searchMd from "./search-md.svg";
 import plusSquare from "./plus-square.svg";
-import recording03 from "./recording-03.svg";
-import recording01 from "./recording-01.svg";
-import disc02 from "./disc-02.svg";
-import chromecast from "./chrome-cast.svg";
-import sliders04 from "./sliders-04.svg";
+import game1 from "./game1.jpg";
+import game2 from "./game2.webp";
+import game3 from "./game3.jpg";
+import game4 from "./game4.jpg";
+import game5 from "./game5.jpeg";
 import loading from "./loading.png";
-import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
-import heroBackground from "./hero/hero-background.jpg";
+import robot from "./hero/vr-headset.jpeg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import collabApp1 from "./collaboration/collabApp1.png";
+import collabApp2 from "./collaboration/collabApp2.png";
+import collabApp3 from "./collaboration/collabApp3.png";
+import collabApp4 from "./collaboration/collabApp4.png";
+import collabApp5 from "./collaboration/collabApp5.png";
+import collabApp6 from "./collaboration/collabApp6.png";
+import collabApp7 from "./collaboration/collabApp7.png";
+import collabApp8 from "./collaboration/collabApp8.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service1 from "./services/serviceImage1.png";
+import service2 from "./services/serviceImage2.jpg";
+import service3 from "./services/serviceImage3.jpg";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
-import notification2 from "./notification/image-2.png";
-import notification3 from "./notification/image-3.png";
-import notification4 from "./notification/image-4.png";
+import vrgame from "./notification/vrgame.jpeg";
+import heroBackground from "./hero/hero-background.jpg";
+
+
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -63,11 +53,13 @@ import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitIcon1 from "./benefits/benefitIcon1.png";
+import benefitIcon2 from "./benefits/benefitIcon2.png";
+import benefitIcon3 from "./benefits/benefitIcon3.png";
+import benefitIcon4 from "./benefits/benefitIcon4.png";
+import benefitIcon5 from "./benefits/benefitIcon5.png";
+import benefitIcon6 from "./benefits/benefitIcon6.png";
+import benefitImage2 from "./benefits/benefitImage1.jpg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -81,53 +73,41 @@ export {
   check2,
   loading1,
   brainwaveSymbol,
-  brainwaveWhiteSymbol,
   play,
   gradient,
   smallSphere,
-  grid,
+  heroBackground,
   yourlogo,
   homeSmile,
   file02,
   searchMd,
   plusSquare,
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  game1,
+  game2,
+  game3,
+  game4,
+  game5,
   loading,
-  background,
   curve,
   robot,
-  heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  collabApp1,
+  collabApp2,
+  collabApp3,
+  collabApp4,
+  collabApp5,
+  collabApp6,
+  collabApp7,
+  collabApp8,
   service1,
   service2,
   service3,
   lines,
   stars,
-  coins,
   done,
-  hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
   undone,
-  notification1,
-  notification2,
-  notification3,
-  notification4,
+  vrgame,
   benefitCard1,
   benefitCard2,
   benefitCard3,
@@ -138,6 +118,8 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   discordBlack,
   facebook,

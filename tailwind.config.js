@@ -10,6 +10,14 @@ export default {
   ],
   theme: {
     extend: {
+      clipPath: {
+        'triangle': 'polygon(50% 0%, 0% 100%, 100% 100%)',
+        'circle': 'circle(50% at 50% 50%)',
+        'hexagon': 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
+        'star': 'polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)',
+        'parallelogram': 'polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)',
+        'trapezoid': 'polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%)'
+      },
       colors: {
         color: {
           1: "#AC6AFF",
@@ -136,6 +144,24 @@ export default {
         ".tap-highlight-color": {
           "-webkit-tap-highlight-color": "rgba(0, 0, 0, 0)",
         },
+        ".clip-path-triangle":{
+          "clip-path": "polygon(50% 0%, 0% 100%, 100% 100%)"
+        },
+        ".clip-path-circle": {
+          "clip-path": "circle(50% at 50% 50%)"
+        },
+        '.clip-path-hexagon': {
+          'clip-path': 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
+        },
+        '.clip-path-star': {
+          'clip-path': 'polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)',
+        },
+        '.clip-path-parallelogram': {
+          'clip-path': 'polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)',
+        },
+        '.clip-path-trapezoid': {
+          'clip-path': 'polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%)'
+        }
       });
     }),
   ],

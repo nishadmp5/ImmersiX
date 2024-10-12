@@ -19,7 +19,7 @@ const PricingList = () => {
                     )}
                 </div>
 
-                <Button white={!!item.price} className="w-full mb-6" href={item.price ? "/pricing" : "mailto:brainwave@gmail.com"}>{item.price ? "Get started" : "Contact us"}</Button>
+                <Button white={!!item.price} className="w-full mb-6" href={item.price ? "/pricing" : "mailto:immersiX@gmail.com"}>{item.price ? "Order now" : "Contact us"}</Button>
                 <ul>
                     {item.features.map((feature,index)=>(
                         <li className='flex items-center py-5 border-t border-n-6' key={index}>

@@ -3,38 +3,33 @@ import {
     benefitIcon2,
     benefitIcon3,
     benefitIcon4,
+    benefitIcon5,
+    benefitIcon6,
     benefitImage2,
-    chromecast,
-    disc02,
-    discord,
+    collabApp1,
+    collabApp2,
+    collabApp3,
+    collabApp4,
+    collabApp5,
+    collabApp6,
+    collabApp7,
+    collabApp8,
     discordBlack,
     facebook,
-    figma,
     file02,
-    framer,
+    game1,
+    game2,
+    game3,
+    game4,
+    game5,
     homeSmile,
     instagram,
-    notification2,
-    notification3,
-    notification4,
-    notion,
-    photoshop,
     plusSquare,
-    protopie,
-    raindrop,
-    recording01,
-    recording03,
-    roadmap1,
-    roadmap2,
-    roadmap3,
-    roadmap4,
     searchMd,
-    slack,
-    sliders04,
     telegram,
     twitter,
     yourlogo,
-  } from "../assets";
+  } from "../assets/";
   
   export const navigation = [
     {
@@ -54,17 +49,6 @@ import {
     },
     {
       id: "3",
-      title: "Roadmap",
-      url: "#roadmap",
-    },
-    {
-      id: "4",
-      title: "New account",
-      url: "#signup",
-      onlyMobile: true,
-    },
-    {
-      id: "5",
       title: "Sign in",
       url: "#login",
       onlyMobile: true,
@@ -72,9 +56,7 @@ import {
   ];
   
   export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-  
-  export const notificationImages = [notification4, notification3, notification2];
-  
+    
   export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
   
   export const brainwaveServices = [
@@ -84,65 +66,31 @@ import {
   ];
   
   export const brainwaveServicesIcons = [
-    recording03,
-    recording01,
-    disc02,
-    chromecast,
-    sliders04,
+    game1,
+    game2,
+    game3,
+    game4,
+    game5
   ];
   
-  export const roadmap = [
-    {
-      id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-      date: "May 2023",
-      status: "done",
-      imageUrl: roadmap1,
-      colorful: true,
-    },
-    {
-      id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-      date: "May 2023",
-      status: "progress",
-      imageUrl: roadmap2,
-    },
-    {
-      id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-      date: "May 2023",
-      status: "done",
-      imageUrl: roadmap3,
-    },
-    {
-      id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-      date: "May 2023",
-      status: "progress",
-      imageUrl: roadmap4,
-    },
-  ];
+  
   
   export const collabText =
-    "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+    "Our VR headset integrates with top platforms, enhancing your gaming, learning, and virtual meeting experiences.";
   
   export const collabContent = [
     {
       id: "0",
-      title: "Seamless Integration",
+      title: "Collaborate with Leading Platforms",
       text: collabText,
     },
     {
       id: "1",
-      title: "Smart Automation",
+      title: "Maximize Potential",
     },
     {
       id: "2",
-      title: "Top-notch Security",
+      title: "Power Up Your VR Experience",
     },
   ];
   
@@ -150,93 +98,93 @@ import {
     {
       id: "0",
       title: "Figma",
-      icon: figma,
+      icon: collabApp1,
       width: 26,
       height: 36,
     },
     {
       id: "1",
       title: "Notion",
-      icon: notion,
+      icon: collabApp2,
       width: 34,
       height: 36,
     },
     {
       id: "2",
       title: "Discord",
-      icon: discord,
+      icon: collabApp3,
       width: 36,
       height: 28,
     },
     {
       id: "3",
       title: "Slack",
-      icon: slack,
+      icon: collabApp4,
       width: 34,
       height: 35,
     },
     {
       id: "4",
       title: "Photoshop",
-      icon: photoshop,
+      icon: collabApp5,
       width: 34,
       height: 34,
     },
     {
       id: "5",
       title: "Protopie",
-      icon: protopie,
+      icon: collabApp6,
       width: 34,
       height: 34,
     },
     {
       id: "6",
-      title: "Framer",
-      icon: framer,
-      width: 26,
+      title: "Protopie",
+      icon: collabApp7,
+      width: 34,
       height: 34,
     },
     {
       id: "7",
-      title: "Raindrop",
-      icon: raindrop,
-      width: 38,
-      height: 32,
-    },
+      title: "Protopie",
+      icon: collabApp8,
+      width: 34,
+      height: 34,
+    }
   ];
   
   export const pricing = [
     {
       id: "0",
-      title: "Basic",
-      description: "AI chatbot, personalized recommendations",
-      price: "0",
+      title: "ImmersiX pulse",
+      description: "Entry-level VR for casual gamers with intuitive controls",
+      price: "199",
       features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "User-friendly interface for easy navigation.",
+        "Exclusive access to premium VR content and simulations",
+        "Supports a wide range of VR applications and games.",
       ],
     },
     {
       id: "1",
-      title: "Premium",
-      description: "Advanced AI chatbot, priority support, analytics dashboard",
-      price: "9.99",
+      title: " ImmersiX Ultra",
+      description: "Top-tier VR with cutting-edge tech for enthusiasts and developers.",
+      price: "599",
       features: [
-        "An advanced AI chatbot that can understand complex queries",
-        "An analytics dashboard to track your conversations",
-        "Priority support to solve issues quickly",
+        "User-friendly interface for easy navigation.",
+        "Exclusive access to premium VR content and simulations",
+        "Supports a wide range of VR applications and games.",
       ],
     },
     {
       id: "2",
-      title: "Enterprise",
-      description: "Custom AI chatbot, advanced analytics, dedicated account",
-      price: null,
+      title: "ImmersiX Pro",
+      description: "Advanced VR with high-resolution visuals for dedicated gamers.",
+      price: "399",
       features: [
-        "An AI chatbot that can understand your queries",
-        "Personalized recommendations based on your preferences",
-        "Ability to explore the app and its features without any cost",
+        "User-friendly interface for easy navigation.",
+        "Exclusive access to premium VR content and simulations",
+        "Supports a wide range of VR applications and games.",
       ],
     },
   ];
@@ -244,16 +192,16 @@ import {
   export const benefits = [
     {
       id: "0",
-      title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "Wireless Freedom",
+      text: "Move freely without cables thanks to wireless connectivity, ensuring an untethered experience.",
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
     {
       id: "1",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "360° Surround View",
+      text: "Enjoy full 360° immersive visuals with real-time head-tracking technology..",
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
@@ -261,16 +209,16 @@ import {
     },
     {
       id: "2",
-      title: "Connect everywhere",
-      text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+      title: "High-Resolution Display",
+      text: "Ultra-clear, vibrant visuals with high-resolution lenses for a crystal-clear experience.",
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
     },
     {
       id: "3",
-      title: "Fast responding",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: " Long-Lasting Battery",
+      text: "Stay powered for hours with extended battery life for uninterrupted playtime.",
       backgroundUrl: "./src/assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
@@ -278,18 +226,18 @@ import {
     },
     {
       id: "4",
-      title: "Ask anything",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "Ergonomic Comfort",
+      text: "Lightweight and adjustable for long-lasting comfort during extended use",
       backgroundUrl: "./src/assets/benefits/card-5.svg",
-      iconUrl: benefitIcon1,
+      iconUrl: benefitIcon5,
       imageUrl: benefitImage2,
     },
     {
       id: "5",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "Built-in Spatial Audio",
+      text: "Experience 3D audio that adapts to your movements for full sound immersion.",
       backgroundUrl: "./src/assets/benefits/card-6.svg",
-      iconUrl: benefitIcon2,
+      iconUrl: benefitIcon6,
       imageUrl: benefitImage2,
     },
   ];
